@@ -17,7 +17,7 @@ azure_openai_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT')
 # Initialize OpenAI client for Azure
 openai.api_key = azure_openai_api_key
 openai.api_base = azure_openai_endpoint
-openai.api_version = "2024-02-01"  # Update to the correct version if needed
+openai.api_version = "2024-02-01"  
 
 # Function to load data from PDF
 def load_data(uploaded_file):
