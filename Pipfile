@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+streamlit = "*"
+tiktoken = "*"
+chromadb = "*"
+pypdf2 = "*"
+openai = "*"
+langchain-community = "*"
+langchain-openai = "*"
+azure-identity = "*"
+azure-mgmt-resource = "*"
+azure-ai-textanalytics = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
