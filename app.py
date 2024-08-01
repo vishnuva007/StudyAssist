@@ -2,8 +2,8 @@ import streamlit as st
 from llm_functions import load_data, split_text, initialize_llm, generate_questions, create_retrieval_qa_chain
 import os
 # Hardcode your Azure OpenAI credentials here
-openai_api_key = os.getenv('AZURE_OPENAI_API_KEY')  # Replace with your actual API key
-openai_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT')  # Replace with your actual endpoint
+openai_api_key = os.getenv('AZURE_OPENAI_API_KEY')  
+openai_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT')  
 print(openai_endpoint)
 # Initialization of session states
 if 'questions' not in st.session_state:
